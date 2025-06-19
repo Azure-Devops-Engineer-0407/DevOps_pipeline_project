@@ -10,5 +10,5 @@ def ingest_data():
     df.to_csv('raw_customers.csv', index=False)
     print("Data ingested and saved to raw_customers.csv")
 
-if __name__ == "__main__":
+if __name__ == "__main__": # this is the main function where the ececutoion will start
     ingest_data()   
